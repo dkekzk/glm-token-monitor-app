@@ -1,0 +1,132 @@
+/* ===== Plan tooltip ===== */
+"plan.tooltip" = "Current plan";
+"刷新" = "Refresh";
+
+/* ===== App & status ===== */
+"GLM 用量监控" = "GLM Pulse";
+"GLM 设置" = "GLM Pulse · Settings";
+"GLM %lld%%" = "G %lld%%";
+"GLM --" = "G --";
+"GLM …" = "G …";
+"GLM !" = "G !";
+
+/* ===== Menu bar panel ===== */
+"5h 配额" = "5h quota";
+"周配额" = "Weekly quota";
+"Weekly 配额" = "Weekly quota";
+"近 5 小时 tokens" = "Tokens · last 5h";
+"最近 24h %@ / %lld calls" = "Last 24h · %@ / %lld calls";
+"重置 %@" = "Resets %@";
+"暂无数据" = "No data yet";
+"24h Tokens" = "24h tokens";
+"调用次数" = "API calls";
+"工具调用" = "Tool calls";
+"刷新失败" = "Refresh failed";
+"设置提示" = "Settings notice";
+"自动刷新" = "Auto refresh";
+"秒" = "s";
+"未填写" = "not set";
+"已填写" = "set";
+"设置" = "Settings";
+"退出" = "Quit";
+"应用" = "Apply";
+
+/* ===== Countdown ===== */
+"%lld s 后刷新" = "Refresh in %lld s";
+"已关闭自动刷新" = "Auto-refresh off";
+
+/* ===== Settings window ===== */
+"当前用量" = "Current usage";
+"立即刷新" = "Refresh now";
+"账号" = "Account";
+"设置" = "Settings";
+"已保存" = "Saved";
+"高级" = "Advanced";
+"服务地区" = "Region";
+"接口连接" = "Endpoint";
+"节点预设" = "Region";
+"国内 · bigmodel.cn" = "China · bigmodel.cn";
+"海外 · z.ai" = "Global · z.ai";
+"国内" = "China";
+"海外" = "Global";
+"Base URL" = "Base URL";
+"Token" = "Token";
+"Authorization token" = "Authorization token";
+"显示 Token" = "Show token";
+"隐藏 Token" = "Hide token";
+"刷新与通知" = "Refresh & notifications";
+"轮询节奏" = "Polling";
+"间隔（秒）" = "Interval (s)";
+"若未收到通知，请在系统设置 → 通知 中允许本 app。" = "Not getting alerts? Allow this app in System Settings → Notifications.";
+"外观与启动" = "Appearance & startup";
+"显示设置" = "Appearance";
+"时区" = "Time zone";
+"外观" = "Theme";
+"启动行为" = "Launch behavior";
+"开机启动" = "Launch at login";
+"在 Finder 中显示" = "Reveal in Finder";
+"plist" = "plist";
+"恢复默认" = "Reset";
+"仅保存" = "Save";
+"应用并刷新" = "Apply & refresh";
+
+/* ===== Privacy notice ===== */
+"数据安全说明" = "Privacy";
+"所有配置（Token、Base URL 等）均仅保存在本机 UserDefaults 中，不会上传至任何服务器。本 app 不收集、不存储、不传输任何用户数据。" = "All settings (token, base URL, etc.) are stored locally in UserDefaults only. Nothing leaves your machine. This app collects, stores, and transmits zero user data.";
+
+/* ===== Appearance modes ===== */
+"跟随系统" = "System";
+"浅色" = "Light";
+"深色" = "Dark";
+
+/* ===== Errors ===== */
+"Base URL 无效。" = "Invalid base URL.";
+"Token 为空。" = "Token is empty.";
+"接口返回结构和当前解析不匹配。" = "Unexpected response structure.";
+"接口返回状态码 %lld。" = "API returned status %lld.";
+"无法创建 LaunchAgents 目录。" = "Could not create LaunchAgents directory.";
+"无法写入开机启动配置。" = "Could not write launch-at-login config.";
+"无法移除开机启动配置。" = "Could not remove launch-at-login config.";
+
+/* ===== Onboarding ===== */
+"onboarding.title" = "Welcome to GLM Pulse";
+"onboarding.subtitle" = "Keep an eye on your GLM token usage from the menu bar.";
+"onboarding.step1" = "1. Open bigmodel.cn (China) or z.ai (Global).";
+"onboarding.step2" = "2. Copy your API Key.";
+"onboarding.step3" = "3. Paste it below and start monitoring.";
+"onboarding.region.china" = "China · bigmodel.cn";
+"onboarding.region.global" = "Global · z.ai";
+"onboarding.token.placeholder" = "Paste your API Token here";
+"onboarding.start" = "Start Monitoring";
+
+/* ===== Notifications ===== */
+"notify.quota.title" = "GLM quota warning";
+"notify.quota.80.body" = "Weekly usage reached %lld%%.";
+"notify.quota.95.body" = "Nearly out — only %lld%% left.";
+"通知" = "Notifications";
+"阈值提醒" = "Threshold alerts";
+"到达 80%%和 95%%时通知" = "Notify at 80%% and 95%%";
+
+/* ===== Copy snapshot ===== */
+"copy.header" = "GLM Usage · %@";
+"copy.weekly" = "Weekly: %lld%%";
+"copy.fiveHour" = "5h: %lld%%";
+"copy.tokens24h" = "24h tokens: %@";
+"copy.calls24h" = "24h calls: %lld";
+"copy.topModel" = "Top model: %@ (%@)";
+"copy.plan" = "Plan: %@";
+"已复制到剪贴板" = "Copied to clipboard";
+
+/* ===== Sparkline ===== */
+"sparkline.header" = "Last 24h pulse";
+"sparkline.vs.up" = "vs yesterday +%lld%%";
+"sparkline.vs.down" = "vs yesterday -%lld%%";
+"sparkline.vs.flat" = "vs yesterday flat";
+"sparkline.vs.new" = "no data yesterday";
+
+/* ===== Friendly reset text ===== */
+"reset.soon" = "Resetting soon";
+"reset.minutes" = "Resets in %lld min";
+"reset.today" = "Resets today · %@";
+"reset.tomorrow" = "Resets tomorrow · %@";
+"reset.days" = "Resets in %lld days · %@";

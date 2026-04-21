@@ -1,0 +1,132 @@
+/* ===== Plan tooltip ===== */
+"plan.tooltip" = "当前套餐";
+"刷新" = "刷新";
+
+/* ===== App & status ===== */
+"GLM 用量监控" = "GLM 用量监控";
+"GLM 设置" = "GLM 用量监控 · 设置";
+"GLM %lld%%" = "G %lld%%";
+"GLM --" = "G --";
+"GLM …" = "G …";
+"GLM !" = "G !";
+
+/* ===== Menu bar panel ===== */
+"5h 配额" = "5h 配额";
+"周配额" = "周配额";
+"Weekly 配额" = "周配额";
+"近 5 小时 tokens" = "近 5 小时 tokens";
+"最近 24h %@ / %lld calls" = "最近 24h · %@ / %lld 次调用";
+"重置 %@" = "%@ 重置";
+"暂无数据" = "暂无数据";
+"24h Tokens" = "24h tokens";
+"调用次数" = "调用次数";
+"工具调用" = "工具调用";
+"刷新失败" = "刷新失败";
+"设置提示" = "设置提示";
+"自动刷新" = "自动刷新";
+"秒" = "秒";
+"未填写" = "未填写";
+"已填写" = "已填写";
+"设置" = "设置";
+"退出" = "退出";
+"应用" = "应用";
+
+/* ===== Countdown ===== */
+"%lld s 后刷新" = "%lld 秒后刷新";
+"已关闭自动刷新" = "已关闭自动刷新";
+
+/* ===== Settings window ===== */
+"当前用量" = "当前用量";
+"立即刷新" = "立即刷新";
+"账号" = "账号";
+"设置" = "设置";
+"已保存" = "已保存";
+"高级" = "高级";
+"服务地区" = "服务地区";
+"接口连接" = "接口连接";
+"节点预设" = "节点预设";
+"国内 · bigmodel.cn" = "国内 · bigmodel.cn";
+"海外 · z.ai" = "海外 · z.ai";
+"国内" = "国内";
+"海外" = "海外";
+"Base URL" = "Base URL";
+"Token" = "Token";
+"Authorization token" = "Authorization token";
+"显示 Token" = "显示 Token";
+"隐藏 Token" = "隐藏 Token";
+"刷新与通知" = "刷新与通知";
+"轮询节奏" = "轮询节奏";
+"间隔（秒）" = "间隔（秒）";
+"若未收到通知，请在系统设置 → 通知 中允许本 app。" = "若未收到通知，请在系统设置 → 通知 中允许本 app。";
+"外观与启动" = "外观与启动";
+"显示设置" = "显示设置";
+"时区" = "时区";
+"外观" = "外观";
+"启动行为" = "启动行为";
+"开机启动" = "开机启动";
+"在 Finder 中显示" = "在 Finder 中显示";
+"plist" = "plist";
+"恢复默认" = "恢复默认";
+"仅保存" = "仅保存";
+"应用并刷新" = "应用并刷新";
+
+/* ===== Privacy notice ===== */
+"数据安全说明" = "数据安全说明";
+"所有配置（Token、Base URL 等）均仅保存在本机 UserDefaults 中，不会上传至任何服务器。本 app 不收集、不存储、不传输任何用户数据。" = "所有配置（Token、Base URL 等）均仅保存在本机 UserDefaults 中，不会上传至任何服务器。本 app 不收集、不存储、不传输任何用户数据。";
+
+/* ===== Appearance modes ===== */
+"跟随系统" = "跟随系统";
+"浅色" = "浅色";
+"深色" = "深色";
+
+/* ===== Errors ===== */
+"Base URL 无效。" = "Base URL 无效。";
+"Token 为空。" = "Token 为空。";
+"接口返回结构和当前解析不匹配。" = "接口返回结构和当前解析不匹配。";
+"接口返回状态码 %lld。" = "接口返回状态码 %lld。";
+"无法创建 LaunchAgents 目录。" = "无法创建 LaunchAgents 目录。";
+"无法写入开机启动配置。" = "无法写入开机启动配置。";
+"无法移除开机启动配置。" = "无法移除开机启动配置。";
+
+/* ===== Onboarding ===== */
+"onboarding.title" = "欢迎使用 GLM 用量监控";
+"onboarding.subtitle" = "让 GLM Token 的用量常驻在你的菜单栏。";
+"onboarding.step1" = "1. 打开 bigmodel.cn（国内）或 z.ai（海外）。";
+"onboarding.step2" = "2. 复制你的 API Key。";
+"onboarding.step3" = "3. 把它粘贴到下方，开始监控。";
+"onboarding.region.china" = "国内 · bigmodel.cn";
+"onboarding.region.global" = "海外 · z.ai";
+"onboarding.token.placeholder" = "粘贴你的 API Token";
+"onboarding.start" = "开始监控";
+
+/* ===== Notifications ===== */
+"notify.quota.title" = "GLM 额度提醒";
+"notify.quota.80.body" = "本周用量已到 %lld%%。";
+"notify.quota.95.body" = "即将耗尽 —— 仅剩 %lld%%。";
+"通知" = "通知";
+"阈值提醒" = "阈值提醒";
+"到达 80%%和 95%%时通知" = "到达 80%% 和 95%% 时提醒";
+
+/* ===== Copy snapshot ===== */
+"copy.header" = "GLM 用量 · %@";
+"copy.weekly" = "本周: %lld%%";
+"copy.fiveHour" = "5h: %lld%%";
+"copy.tokens24h" = "24h tokens: %@";
+"copy.calls24h" = "24h 调用: %lld";
+"copy.topModel" = "主要模型: %@ (%@)";
+"copy.plan" = "Plan: %@";
+"已复制到剪贴板" = "已复制到剪贴板";
+
+/* ===== Sparkline ===== */
+"sparkline.header" = "近 24 小时节奏";
+"sparkline.vs.up" = "vs 昨日 +%lld%%";
+"sparkline.vs.down" = "vs 昨日 -%lld%%";
+"sparkline.vs.flat" = "vs 昨日 持平";
+"sparkline.vs.new" = "昨日无数据";
+
+/* ===== Friendly reset text ===== */
+"reset.soon" = "即将重置";
+"reset.minutes" = "%lld 分钟后重置";
+"reset.today" = "今天 %@ 重置";
+"reset.tomorrow" = "明天 %@ 重置";
+"reset.days" = "%lld 天后重置 · %@";

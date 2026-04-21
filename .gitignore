@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# Build output
+output/
+*.dmg
+*.app/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets — never commit a real token
+.env
+.env.local
+*.token
+secrets.json
