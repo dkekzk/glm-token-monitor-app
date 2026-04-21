@@ -8,9 +8,11 @@ A native macOS menu bar app that keeps an eye on your GLM (智谱 / Z.AI) token 
 
 ---
 
-<!-- TODO: replace with real screenshots -->
-<!-- ![Menu bar panel](docs/screenshot-panel.png) -->
-<!-- ![Settings window](docs/screenshot-settings.png) -->
+<p align="center">
+  <img src="docs/screenshot-panel.png" alt="Menu bar panel" width="360" />
+  &nbsp;&nbsp;
+  <img src="docs/screenshot-settings.png" alt="Settings window" width="420" />
+</p>
 
 ## English
 

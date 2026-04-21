@@ -5,7 +5,7 @@ ROOT_DIR="$(cd -- "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 APP_NAME="GLM 用量监控"
-BUNDLE_ID="local.codex.GLMTokenMonitor"
+BUNDLE_ID="com.jingcc.glm-pulse"
 EXECUTABLE_NAME="glm-token-monitor-app"
 APP_DIR="$ROOT_DIR/output/$APP_NAME.app"
 CONTENTS_DIR="$APP_DIR/Contents"
@@ -82,9 +82,9 @@ cat > "$CONTENTS_DIR/Info.plist" <<EOF
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>2.0.1</string>
+    <string>2.0.2</string>
     <key>CFBundleVersion</key>
-    <string>201</string>
+    <string>202</string>
     <key>LSMinimumSystemVersion</key>
     <string>13.0</string>
     <key>LSUIElement</key>

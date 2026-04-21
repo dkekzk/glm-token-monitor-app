@@ -209,7 +209,7 @@ struct HourlyQueryWindow {
 
 @MainActor
 final class MonitorViewModel: ObservableObject {
-    static let defaultsDomain = "local.codex.GLMTokenMonitor"
+    static let defaultsDomain = "com.jingcc.glm-pulse"
     static let chinaBaseURL   = "https://open.bigmodel.cn/api/anthropic"
     static let globalBaseURL  = "https://api.z.ai/api/anthropic"
     static let defaultBaseURL = globalBaseURL
